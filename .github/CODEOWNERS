@@ -1,0 +1,17 @@
+# Who reviews changes to each path. The last matching line wins.
+# Approval from any one owner on a line is enough; the leader is on every line to follow all work.
+*                                 @hungtranvg62
+/game/                            @hungtranvg62
+/engine/greedy.py                 @Lecodeurdefoliedu94200 @hungtranvg62
+/engine/evaluation/material.py    @Lecodeurdefoliedu94200 @hungtranvg62
+/engine/minimax.py                @labrynth205-ship-it @hungtranvg62
+/engine/evaluation/simplified.py  @labrynth205-ship-it @hungtranvg62
+/engine/alphabeta.py              @potterisback @hungtranvg62
+/engine/ordering.py               @potterisback @hungtranvg62
+/engine/master.py                 @hungtranvg62
+/engine/tt.py                     @hungtranvg62
+/engine/evaluation/tapered.py     @hungtranvg62
+/engine/evaluation/pesto.py       @hungtranvg62
+/benchmark/run_puzzles.py         @Lecodeurdefoliedu94200 @hungtranvg62
+/benchmark/run_nodes.py           @potterisback @hungtranvg62
+/ui/                              @Yannouuu69 @hungtranvg62

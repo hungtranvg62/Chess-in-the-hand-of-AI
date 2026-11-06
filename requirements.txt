@@ -1,0 +1,5 @@
+chess>=1.11
+pygame
+pandas
+matplotlib
+pytest
