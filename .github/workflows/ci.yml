@@ -29,6 +29,9 @@ jobs:
       - name: Chess rules
         run: pytest -v tests/test_game_rules.py
 
+      - name: Shared interface
+        run: pytest -v tests/test_interface.py
+
       - name: Engine contract
         run: pytest -v -rs tests/test_engine_contract.py
 
