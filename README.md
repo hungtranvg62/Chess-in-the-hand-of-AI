@@ -41,6 +41,14 @@ Then install the packages (once, and again when `requirements.txt` changes):
 pip install -r requirements.txt
 ```
 
+## Run the app
+
+```
+python -m ui.app
+```
+
+Click the **White** and **Black** buttons to choose Human or an engine. Every engine in `engine/` with a `search()` function appears there by itself, so you can play against your own level as soon as it exists.
+
 ## Run the tests
 
 ```
