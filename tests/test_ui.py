@@ -41,7 +41,8 @@ def test_castle_sound():
 
 
 def test_promotion_sound():
-    assert _sound("8/P7/8/8/8/8/8/k6K w - - 0 1", "a8=N") == "promote"
+    # Black keeps a pawn: king + knight vs bare king would be a draw (insufficient material).
+    assert _sound("8/P7/8/7p/4k3/8/8/7K w - - 0 1", "a8=N") == "promote"
 
 
 def test_check_beats_capture():
