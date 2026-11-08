@@ -49,6 +49,8 @@ python -m ui.app
 
 Click the **White** and **Black** buttons to choose Human or an engine. Every engine in `engine/` with a `search()` function appears there by itself, so you can play against your own level as soon as it exists.
 
+Click a piece then a dot, or drag it. A pawn on the last rank lets you choose the promotion piece. The bar left of the board shows the engine's score; **Theme** changes the board colours and **Sound** turns the sounds on or off. Own piece images or sounds can be dropped into `ui/assets/` (see the top of `ui/app.py` and `ui/sounds.py`).
+
 ## Run the tests
 
 ```
